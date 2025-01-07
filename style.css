@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+body {
+    background: linear-gradient(90deg, #18D56F, #06334A, #032E3F);
+
+    *{
+        text-decoration: inherit;
+        text-decoration: color(srgbrgb(255, 255, 255)d rgb(255, 255, 255) blue);
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    a:visited{
+        color: white;
+    }
+
+    a:hover{
+        color: #d4d4d4;
+        font-size: 1.02em;
+        transition: 0.0s;
+    }
+      }
+
+      .button-container {
+        display: flex;
+        flex-direction: column;
+        gap: 10px; /* Espaço entre os botões */
+        align-items: center; /* Alinha à esquerda, pode ser alterado para 'center' ou 'flex-end' */
+    }
+
+
+    button {
+        border: none;
+        cursor: pointer;
+        background-color: rgba(255, 255, 255, 0);
+        color: white;
+        text-align: center;
+
+        }
+
+
+    img {
+        max-width: 100%;
+        height: auto; /* Mantém a proporção */
+      }
+
+      main {
+        text-align: right;
+      }
+
+      h1 {
+        color: white;
+      }
+
+      h2 {
+        color: white;
+      }
+      
+      p {
+        font-size: 0.3em;
+      }
